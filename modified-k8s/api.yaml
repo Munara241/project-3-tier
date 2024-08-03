@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: devops-api
-        image: kaizenacademy/api-app:1.0.0
+        image: munara241/api-app:1.0.0
         ports:
         - containerPort: 3001
         env:
